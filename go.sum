@@ -96,8 +96,6 @@ github.com/cncf/xds/go v0.0.0-20210312221358-fbca930ec8ed/go.mod h1:eXthEFrGJvWH
 github.com/cncf/xds/go v0.0.0-20210805033703-aa0b78936158/go.mod h1:eXthEFrGJvWHgFFCl3hGmgk+/aYT6PnTQLykKQRLhEs=
 github.com/cpuguy83/go-md2man/v2 v2.0.2/go.mod h1:tgQtvFlXSQOSOSIRvRPT7W67SCa46tRHOmNcaadrF8o=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
-github.com/crossplane/crossplane-runtime v0.20.0-rc.0.0.20230406155702-4e1673b7141f h1:wDRr6gaoiQstEdddrn0B5SSSgzdXreOQAbdmRH+9JeI=
-github.com/crossplane/crossplane-runtime v0.20.0-rc.0.0.20230406155702-4e1673b7141f/go.mod h1:ebtUpmconMy8RKUEhrCXTUFSOpfGQqbKM2E+rjCCYJo=
 github.com/crossplane/crossplane-tools v0.0.0-20230327091744-4236bf732aa5 h1:K9H55wcwfXcGroZApIgPmIGRGuZLszsLDCYB12p2yMo=
 github.com/crossplane/crossplane-tools v0.0.0-20230327091744-4236bf732aa5/go.mod h1:+e4OaFlOcmr0JvINHl/yvEYBrZawzTgj6pQumOH1SS0=
 github.com/dave/jennifer v1.4.1 h1:XyqG6cn5RQsTj3qlWQTKlRGAyrTcsk1kUmWdZBzRjDw=
@@ -106,6 +104,10 @@ github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSs
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/docopt/docopt-go v0.0.0-20180111231733-ee0de3bc6815/go.mod h1:WwZ+bS3ebgob9U8Nd0kOddGdZWjyMGR8Wziv+TBNwSE=
+github.com/elvis-cai/crossplane-runtime v0.20.0-rc.0.0.20230522125050-9a34f388ec2b h1:FtEQGn9vzPwmuK0E5+nX0EPl9pqmh89h73Cdm3zUfuY=
+github.com/elvis-cai/crossplane-runtime v0.20.0-rc.0.0.20230522125050-9a34f388ec2b/go.mod h1:ebtUpmconMy8RKUEhrCXTUFSOpfGQqbKM2E+rjCCYJo=
+github.com/elvis-cai/upjet v0.0.0-20230522231717-32111953ee8f h1:mxN+Vn5xVK3TV9t3aqg6o5vtW6Evqb9gTbiRdG5GEGw=
+github.com/elvis-cai/upjet v0.0.0-20230522231717-32111953ee8f/go.mod h1:CWxJ9YTMy7q+bDc2W504ocL/ZzBmWabwwcRjIaP7CKc=
 github.com/emicklei/go-restful/v3 v3.9.0 h1:XwGDlfxEnQZzuopoqxwSEllNcCOM9DhhFyhFIIGKwxE=
 github.com/emicklei/go-restful/v3 v3.9.0/go.mod h1:6n3XBCmQQb25CM2LCACGz8ukIrRry+4bhvbpWn3mrbc=
 github.com/envoyproxy/go-control-plane v0.9.0/go.mod h1:YTl/9mNaCwkRvm6d1a2C3ymFceY/DCBVvsKhRF0iEA4=
@@ -508,8 +510,6 @@ github.com/stretchr/testify v1.8.0/go.mod h1:yNjHg4UonilssWZ8iaSj1OCr/vHnekPRkoO
 github.com/tmccombs/hcl2json v0.3.3 h1:+DLNYqpWE0CsOQiEZu+OZm5ZBImake3wtITYxQ8uLFQ=
 github.com/tmccombs/hcl2json v0.3.3/go.mod h1:Y2chtz2x9bAeRTvSibVRVgbLJhLJXKlUeIvjeVdnm4w=
 github.com/tv42/httpunix v0.0.0-20150427012821-b75d8614f926/go.mod h1:9ESjWnEqriFuLhtthL60Sar/7RFoluCcXsuvEwTV5KM=
-github.com/upbound/upjet v0.9.0-rc.0.0.20230427131841-1d0b7b0c08f8 h1:dFGXjvdaPxZe/Zs/5wNZ+t0lACy9WpAfEsemURfmGK0=
-github.com/upbound/upjet v0.9.0-rc.0.0.20230427131841-1d0b7b0c08f8/go.mod h1:CWxJ9YTMy7q+bDc2W504ocL/ZzBmWabwwcRjIaP7CKc=
 github.com/vmihailenco/msgpack v3.3.3+incompatible/go.mod h1:fy3FlTQTDXWkZ7Bh6AcGMlsjHatGryHQYUTf1ShIgkk=
 github.com/vmihailenco/msgpack v4.0.4+incompatible h1:dSLoQfGFAo3F6OoNhwUmLwVgaUXK79GlxNBwueZn0xI=
 github.com/vmihailenco/msgpack v4.0.4+incompatible/go.mod h1:fy3FlTQTDXWkZ7Bh6AcGMlsjHatGryHQYUTf1ShIgkk=
