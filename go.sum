@@ -104,8 +104,8 @@ github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSs
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/docopt/docopt-go v0.0.0-20180111231733-ee0de3bc6815/go.mod h1:WwZ+bS3ebgob9U8Nd0kOddGdZWjyMGR8Wziv+TBNwSE=
-github.com/elvis-cai/crossplane-runtime v0.20.0-rc.0.0.20230522125050-9a34f388ec2b h1:FtEQGn9vzPwmuK0E5+nX0EPl9pqmh89h73Cdm3zUfuY=
-github.com/elvis-cai/crossplane-runtime v0.20.0-rc.0.0.20230522125050-9a34f388ec2b/go.mod h1:ebtUpmconMy8RKUEhrCXTUFSOpfGQqbKM2E+rjCCYJo=
+github.com/elvis-cai/crossplane-runtime v0.20.0-rc.0.0.20230530234645-c907fc158607 h1:gBRBDD1hCWFaykqI1H9j1gd0wHmeTp0dmDDNH7BNJQY=
+github.com/elvis-cai/crossplane-runtime v0.20.0-rc.0.0.20230530234645-c907fc158607/go.mod h1:ebtUpmconMy8RKUEhrCXTUFSOpfGQqbKM2E+rjCCYJo=
 github.com/elvis-cai/upjet v0.0.0-20230522231717-32111953ee8f h1:mxN+Vn5xVK3TV9t3aqg6o5vtW6Evqb9gTbiRdG5GEGw=
 github.com/elvis-cai/upjet v0.0.0-20230522231717-32111953ee8f/go.mod h1:CWxJ9YTMy7q+bDc2W504ocL/ZzBmWabwwcRjIaP7CKc=
 github.com/emicklei/go-restful/v3 v3.9.0 h1:XwGDlfxEnQZzuopoqxwSEllNcCOM9DhhFyhFIIGKwxE=
