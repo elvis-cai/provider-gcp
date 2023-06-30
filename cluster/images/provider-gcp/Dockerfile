@@ -53,5 +53,5 @@ EXPOSE 8080
 ADD terraformrc.hcl ${TF_CLI_CONFIG_FILE}
 COPY --from=builder /tmp/terraform /usr/local/bin/
 COPY --from=builder /tmp/native/* ${PLUGIN_DIR}/
-
+ADD "bin/${TARGETOS}_${TARGETARCH}/compute" /usr/local/bin/provider
 ENTRYPOINT ["provider"]
