@@ -24,17 +24,18 @@ include ../../../build/makelib/imagelight.mk
 img.build:
 	@$(INFO) Family base image to build: $(IMAGE)
 	@$(INFO) Building image $${IMAGE}; \
-	$(MAKE) BUILD_ARGS="--load" IMAGE=$${IMAGE} XPKG_REG_ORGS=$(XPKG_REG_ORGS) img.build.shared; \
-	if [[ "$${LOAD_MONOLITH}" == "true" ]]; then \
-	  $(MAKE) batch-process SUBPACKAGES=monolith BATCH_PLATFORMS=$(PLATFORM) BUILD_ONLY=true STORE_PACKAGE=monolith && \
-	  export t=$$(docker load -qi "$(XPKG_OUTPUT_DIR)/$(PLATFORM)/$(PROJECT_NAME)-monolith-$(VERSION).xpkg") && \
-	  docker tag $${t##*:} $(BUILD_REGISTRY)/$(PROJECT_NAME)-monolith-$(ARCH); \
-	fi || $(FAIL)
+	$(MAKE) BUILD_ARGS="--load" IMAGE=$${IMAGE} XPKG_REG_ORGS=$(XPKG_REG_ORGS) img.build.shared || $(FAIL) \
+	$(MAKE) batch-process SUBPACKAGES=compute BATCH_PLATFORMS=$(PLATFORM) BUILD_ONLY=true STORE_PACKAGE=compute && \
+	export t=$$(docker load -qi "$(XPKG_OUTPUT_DIR)/$(PLATFORM)/$(PROJECT_NAME)-compute-$(VERSION).xpkg") && \
+	docker tag $${t##*:} $(BUILD_REGISTRY)/$(PROJECT_NAME)-compute-$(ARCH); \
+	|| $(FAIL)
+
 	@$(OK) docker build $${IMAGE};
 
 img.build.shared:
 	@cp Dockerfile $(IMAGE_TEMP_DIR) || $(FAIL)
 	@cp terraformrc.hcl $(IMAGE_TEMP_DIR) || $(FAIL)
+	@cp -r $(OUTPUT_DIR)/bin/ $(IMAGE_TEMP_DIR)/bin || $(FAIL)
 	@docker buildx build $(BUILD_ARGS) \
 		--platform $(IMAGE_PLATFORMS) \
 		--build-arg TERRAFORM_VERSION=$(TERRAFORM_VERSION) \
