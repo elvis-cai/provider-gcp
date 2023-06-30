@@ -2,6 +2,10 @@ module github.com/upbound/provider-gcp
 
 go 1.19
 
+replace github.com/upbound/upjet => github.com/elvis-cai/upjet v0.0.0-20230522231717-32111953ee8f
+
+replace github.com/crossplane/crossplane-runtime => github.com/elvis-cai/crossplane-runtime v0.20.0-rc.0.0.20230530234645-c907fc158607
+
 require (
 	github.com/crossplane/crossplane-runtime v0.20.0-rc.0.0.20230406155702-4e1673b7141f
 	github.com/crossplane/crossplane-tools v0.0.0-20230327091744-4236bf732aa5
