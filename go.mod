@@ -4,7 +4,7 @@ go 1.19
 
 replace github.com/upbound/upjet => github.com/elvis-cai/upjet v0.0.0-20230629234022-4d0e8df13fcd
 
-replace github.com/crossplane/crossplane-runtime => github.com/elvis-cai/crossplane-runtime v0.20.0-rc.0.0.20230629233317-48a3f103b660
+replace github.com/crossplane/crossplane-runtime => github.com/elvis-cai/crossplane-runtime v0.20.0-rc.0.0.20230530234645-c907fc158607
 
 require (
 	github.com/crossplane/crossplane-runtime v0.20.0-rc.0.0.20230406155702-4e1673b7141f
